@@ -5,12 +5,13 @@
   "type": "module",
   "packageManager": "pnpm@9.4.0",
   "scripts": {
-    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "build": "vite build",
     "dev": "vite --open",
     "preview": "vite preview"
   },
   "devDependencies": {
     "critters": "^0.0.22",
+    "cross-env": "^7.0.3",
     "http-server": "^14.1.1",
     "prettier": "^3.3.2"
   },
@@ -23,7 +24,6 @@
     "@vue/compiler-sfc": "^3.4.29",
     "@vue/server-renderer": "^3.4.29",
     "@vueuse/head": "^2.0.0",
-    "cross-env": "^7.0.3",
     "d3": "^7.9.0",
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.2.0",
